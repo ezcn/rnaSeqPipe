@@ -13,7 +13,7 @@
 ```
 ~/bin/sambamba sort -t 1 -m 32G -p --tmpdir /scratch -o /mpbastudies3/lonardo/raw/bam/${id}.${num}.bam /mpbastudies3/lonardo/raw/bam/${id}.${num}.raw.bam
 ```
-#### 4. Download annotation gtf [hg38 gtf](ftp://ftp.ensembl.org/pub/release-98/gtf/homo_sapiens/)
+#### 4. Download annotation gtf [hg38 gtf]( ftp://ftp.ensembl.org/pub/release-95/gtf/homo_sapiens)
 
 #### 5. Count reads 
 
