@@ -64,4 +64,6 @@ perl run_DE_analysis.pl  --matrix /home/silvia/rna_seq/samples/Lonardo_counts.tx
 ```
 
 
-#### 9. Post edgeR
+#### 9. Post edgeR  
+
+[Rscript_post_edgeR](rscriptPost_edgeR.R)
