@@ -55,7 +55,9 @@ POS	NEG
 
 #### 8. Run perl script (edgeR)
 
-Required perl module [Fasta_reader.pm](https://github.com/Trinotate/Trinotate/blob/master/PerlLib/Fasta_reader.pm)  Required R script [rnaseq_plot_funcs.R](https://github.com/trinityrnaseq/trinityrnaseq/tree/master/Analysis/DifferentialExpression/R)  [edgeRscript](edgeR.R)
+Required perl module [Fasta_reader.pm](https://github.com/Trinotate/Trinotate/blob/master/PerlLib/Fasta_reader.pm)  
+Required R script [rnaseq_plot_funcs.R](https://github.com/trinityrnaseq/trinityrnaseq/tree/master/Analysis/DifferentialExpression/R)  
+[edgeRscript](edgeR.R)
 
 ```
 perl run_DE_analysis.pl  --matrix /home/silvia/rna_seq/samples/Lonardo_counts.txt  --method edgeR --dispersion 0.1 --samples_file /home/silvia/rna_seq/samples/samples_lonardo.tsv --contrasts /home/silvia/rna_seq/samples/contrast_lonardo.tsv  --output /home/silvia/rna_seq/results
